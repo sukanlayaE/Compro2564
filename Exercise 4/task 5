@@ -1,6 +1,9 @@
 # จงเขียนโปรแกรมสร้างตารางสูตรคูณ โดยรับข้อมูลเข้าเป็นตัวเลข 1 ตัว (n) เพื่อให้แสดงผลสูตรคูณแม่นั้น 
 ๆ โดยใช้ค าสั่ง while loop
 
-num = int(input("Enter number : "))
-for i in range(1, 13):
-  print("{} x {} = {} " .format(num, i, num*i))
+n = int(input("Num : "))
+max = 12
+min = 1
+while min<=max:
+    print("%d * %d = %d" % (n,min,n*min))
+    min+=1
