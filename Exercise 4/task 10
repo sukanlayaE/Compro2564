@@ -1,1 +1,16 @@
+#จงเขียนโปรแกรมสร้างรูปพีรามิด ดังตัวอย่างด้านล่างโดยจำนวนชั้นจะรับค่า n จากคีย์บอร์ดเพื่อแสดงผล
 
+
+n = int(input("Enter number : "))
+for i in range(n):
+    for j in range(n-i-1):
+      print("  ", end = "")
+    for k in range(2*i+1):
+      print("*", end = "")
+    print()
+for a in range(n-1, 0, -1):
+  for b in range(n-a):
+    print("", end = "  ")
+  for c in range(2*a-1):
+    print("*", end = "")
+  print()
