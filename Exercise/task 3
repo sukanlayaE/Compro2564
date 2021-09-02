@@ -10,4 +10,4 @@ sampleDict = {
    }
 }
 
-print(sampleDict['class']['student']['marks'])
+print(sampleDict['class']['student']['marks']['history'])
